@@ -14,8 +14,6 @@
 \includegraphics[width=0.7\linewidth]{./logo}
 \end{figure}
 
-
-
 \vspace{7mm}
 
 NotifyMe es una aplicación que servirá de servicio de recordatorios (\emph{to do}) que añade la funcionalidad de ubicación geográfica. Solucionando el problema de que usuarios de otras aplicaciones de tipo \emph{to do} no lograban realizar las tareas especificadas ya que eran simples recordatorios. \\
@@ -23,6 +21,12 @@ NotifyMe es una aplicación que servirá de servicio de recordatorios (\emph{to 
 NotifyMe se diferencia de estas aplicaciones en que a la nota o tare a realizar se añade un lugar geográfico, esto ayuda que en cuando el usuario esté en un rango (escogido por el usuario)de dicha ubicación determinada previamente emite una alarma para que el usuario realice la actividad anotada.
 
 \section{\textbf{Detalles técnicos:}}
+A continuación podemos ver el diagrama de casos de uso de la NotifyMe \\
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./CasoDeUso}
+\end{figure}
+
 
 NotifyMe usa el \emph{GPS} del smartphone para poder ubicar la posición actual del usuario, y por medio de la \emph{API de Google Maps} poder ubicar el lugar geográfico de la nota o tarea a realizar. Se usa de una base de datos de \emph{SQLite}d e una sola tabla que contiene datos como tarea, ubicación geográfica, categoría, si se realizó la tarea, esto con el fin de recolectar datos y en futuras versiones ofrecer historiales de tareas realizadas, tareas no realizadas, tareas agrupadas por lugares geográficos o categorías. \\
  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.6.21)  5 NOV 2012 22:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.6.21)  5 NOV 2012 23:07
 entering extended mode
 **Descripción.tex
 (C:\Users\Developer\Documents\GitHub\NotifyMe\Descripción.tex
@@ -319,12 +319,21 @@ File: ./logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./logo.jpg used on input line 14.
 (pdftex.def)             Requested size: 251.9989pt x 189.00215pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
+<./CasoDeUso.png, id=2, 582.41118pt x 328.75764pt>
+File: ./CasoDeUso.png Graphic file (type png)
+ <use ./CasoDeUso.png>
+Package pdftex.def Info: ./CasoDeUso.png used on input line 27.
+(pdftex.def)             Requested size: 251.9989pt x 142.24591pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
@@ -332,39 +341,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Developer/Docume
 nts/GitHub/NotifyMe/logo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-<./DB.png, id=11, 766.62883pt x 167.21294pt>
+<./DB.png, id=12, 766.62883pt x 167.21294pt>
 File: ./DB.png Graphic file (type png)
  <use ./DB.png>
-Package pdftex.def Info: ./DB.png used on input line 35.
+Package pdftex.def Info: ./DB.png used on input line 39.
 (pdftex.def)             Requested size: 251.9989pt x 54.96355pt.
- [2 <C:/Users/Developer/Documents/GitHub/NotifyMe/DB.png>]
+ [2 <C:/Users/Developer/Documents/GitHub/NotifyMe/CasoDeUso.png> <C:/Users/Deve
+loper/Documents/GitHub/NotifyMe/DB.png>]
 (C:\Users\Developer\Documents\GitHub\NotifyMe\Descripción.aux) ) 
 Here is how much of TeX's memory you used:
- 1350 strings out of 494045
- 16927 string characters out of 3148435
- 67461 words of memory out of 3000000
- 4666 multiletter control sequences out of 15000+200000
+ 1355 strings out of 494045
+ 17019 string characters out of 3148435
+ 68461 words of memory out of 3000000
+ 4670 multiletter control sequences out of 15000+200000
  7926 words of font info for 28 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 27i,7n,19p,577b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,19p,577b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmti10.pfb>
-Output written on Descripción.pdf (2 pages, 124066 bytes).
+Output written on Descripción.pdf (2 pages, 144096 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

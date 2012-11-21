@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.6.21)  21 OCT 2012 18:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.6.21)  21 NOV 2012 03:15
 entering extended mode
 **Slides.tex
-(C:\Users\Developer\Documents\GitHub\Slide-Project\Slides.tex
+(C:\Users\Developer\Documents\GitHub\NotifyMe\Slides.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -959,7 +959,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 8.
 
-(C:\Users\Developer\Documents\GitHub\Slide-Project\Slides.aux)
+(C:\Users\Developer\Documents\GitHub\NotifyMe\Slides.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
@@ -1038,8 +1038,8 @@ LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
 
-(C:\Users\Developer\Documents\GitHub\Slide-Project\Slides.out)
-(C:\Users\Developer\Documents\GitHub\Slide-Project\Slides.out)
+(C:\Users\Developer\Documents\GitHub\NotifyMe\Slides.out)
+(C:\Users\Developer\Documents\GitHub\NotifyMe\Slides.out)
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 12.
@@ -1117,7 +1117,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 12.
 
-(C:\Users\Developer\Documents\GitHub\Slide-Project\Slides.nav)
+(C:\Users\Developer\Documents\GitHub\NotifyMe\Slides.nav)
 Overfull \hbox (75.00146pt too wide) in paragraph at lines 12--12
  [][]  \OT1/cmss/m/n/5 ([])  
  []
@@ -1140,7 +1140,12 @@ Overfull \hbox (75.00146pt too wide) has occurred while \output is active
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Developer/Docume
-nts/GitHub/Slide-Project/android.png>]
+nts/GitHub/NotifyMe/android.png>]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 28.
+
+
 Overfull \hbox (75.00146pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/5 ([])  
  []
@@ -1148,42 +1153,22 @@ Overfull \hbox (75.00146pt too wide) has occurred while \output is active
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 41.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\sansmathaccent\ot1mathkerncmss.fd"
-File: ot1mathkerncmss.fd 2012/04/26
-)
 Overfull \hbox (75.00146pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/5 ([])  
  []
 
 [3
 
-]
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 57.
-
-<gmaps.png, id=111, 401.5pt x 301.125pt>
+] <gmaps.png, id=111, 401.5pt x 301.125pt>
 File: gmaps.png Graphic file (type png)
  <use gmaps.png>
-Package pdftex.def Info: gmaps.png used on input line 57.
+Package pdftex.def Info: gmaps.png used on input line 52.
 (pdftex.def)             Requested size: 69.13803pt x 51.85222pt.
 
 <gingerbread.png, id=112, 160.6pt x 200.75pt>
 File: gingerbread.png Graphic file (type png)
  <use gingerbread.png>
-Package pdftex.def Info: gingerbread.png used on input line 57.
+Package pdftex.def Info: gingerbread.png used on input line 52.
 (pdftex.def)             Requested size: 69.13803pt x 86.42496pt.
 
 Overfull \hbox (75.00146pt too wide) has occurred while \output is active
@@ -1192,17 +1177,66 @@ Overfull \hbox (75.00146pt too wide) has occurred while \output is active
 
 [4
 
- <C:/Users/Developer/Documents/GitHub/Slide-Project/gmaps.png> <C:/Users/Develo
-per/Documents/GitHub/Slide-Project/gingerbread.png>]
+ <C:/Users/Developer/Documents/GitHub/NotifyMe/gmaps.png> <C:/Users/Developer/D
+ocuments/GitHub/NotifyMe/gingerbread.png>]
+<crearnota.png, id=141, 481.8pt x 803.0pt>
+File: crearnota.png Graphic file (type png)
+ <use crearnota.png>
+Package pdftex.def Info: crearnota.png used on input line 62.
+(pdftex.def)             Requested size: 69.13803pt x 115.22511pt.
+
+Overfull \hbox (75.00146pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/5 ([])  
+ []
+
+[5
+
+ <C:/Users/Developer/Documents/GitHub/NotifyMe/crearnota.png (PNG copy)>]
+File: crearnota.png Graphic file (type png)
+
+<use crearnota.png>
+Package pdftex.def Info: crearnota.png used on input line 72.
+(pdftex.def)             Requested size: 69.13803pt x 115.22511pt.
+
+Overfull \hbox (75.00146pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/5 ([])  
+ []
+
+[6
+
+]
+File: crearnota.png Graphic file (type png)
+ <use crearnota.png>
+Package pdftex.def Info: crearnota.png used on input line 83.
+(pdftex.def)             Requested size: 69.13803pt x 115.22511pt.
+
+Overfull \hbox (75.00146pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/5 ([])  
+ []
+
+[7
+
+]
+File: crearnota.png Graphic file (type png)
+ <use crearnota.png>
+Package pdftex.def Info: crearnota.png used on input line 92.
+(pdftex.def)             Requested size: 69.13803pt x 115.22511pt.
+
+Overfull \hbox (75.00146pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/5 ([])  
+ []
+
+[8
+
+]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
-
-(C:\Users\Developer\Documents\GitHub\Slide-Project\Slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+ (C:\Users\Developer\Documents\GitHub\NotifyMe\Slides.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `Slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1213,24 +1247,24 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 16234 strings out of 494045
- 300308 string characters out of 3148435
- 382612 words of memory out of 3000000
- 19112 multiletter control sequences out of 15000+200000
- 10139 words of font info for 37 fonts, out of 3000000 for 9000
+ 16183 strings out of 494045
+ 299029 string characters out of 3148435
+ 384611 words of memory out of 3000000
+ 19075 multiletter control sequences out of 15000+200000
+ 5801 words of font info for 21 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 49i,17n,57p,451b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,17n,57p,451b,648s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmssi9.pfb>
-Output written on Slides.pdf (4 pages, 173412 bytes).
+Output written on Slides.pdf (8 pages, 222366 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

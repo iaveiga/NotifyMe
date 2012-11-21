@@ -1,0 +1,58 @@
+\documentclass[9pt]{beamer}
+\usetheme{CambridgeUS}%establece el tipo de diapositiva
+\usepackage[activeacute,spanish]{babel}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+
+\title{NotifyMe}
+\author{Iván Aveiga \\ Wilson Enriquez \\ Andrés Sornoza}
+\institute{Escuela Superior Politécnica del Litoral}
+
+
+\begin{document}
+	\begin{frame}
+		\begin{center}
+			\includegraphics[width=0.20\textwidth]{android.png}
+		\end{center}
+		\titlepage
+		\scriptsize
+	\end{frame}	
+	
+	\begin{frame}
+		\frametitle{NotifyMe}
+			\begin{block}{\textbf{El Problema}}
+				La falta de una aplicación en el mercado que permita realizar recordatorios de actividades a realizar dada una lista de actividades
+				en diversos lugares geográficos. Ejemplo:
+					\begin{itemize}
+						\item Recordar la compra de útiles escolares cuando se está cerca de una papelería.
+						\item Pago de servicios básicos cuando se está cerca de un lugar de recaudación.
+						\item Visitas planificadas a personas o lugares.
+					\end{itemize}
+			\end{block}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{NotifyMe}
+			\begin{block}{\textbf{La Solución}}
+				Desarrollar una aplicación móvil que combine el uso de \emph{GPS} con sistemas \emph{To Do}. \\
+				La aplicación permite el ingreso de tareas a realizar con sus respectivas ubicaciones geográficas y recordar
+				que tiene que realizar una actividad cuando se está cerca $($ dado un rango previamente $)$ del lugar                               geográfico.
+		 \end{block}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{NotifyMe}
+			\begin{block}{\textbf{Especificaciones Técnicas}}
+				\begin{itemize}
+					\item \emph{\textbf{OS:}} Android
+					\item \emph{\textbf{Versión:}} 2.3.6
+					\item \emph{\textbf{Lenguaje de Desarrollo:}} Java				
+					\item \emph{\textbf{API:}} Google Maps
+				\end{itemize}
+				\begin{center}
+					\includegraphics[width=0.20\textwidth]{gmaps.png}
+					\includegraphics[width=0.20\textwidth]{gingerbread.png}
+				\end{center}
+			\end{block}
+	\end{frame}
+\end{document}

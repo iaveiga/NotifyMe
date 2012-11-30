@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+   <string-array name="categorias">
+      <item>Titulo</item>
+      <item>Descripcion</item>
+      <item>Fecha</item>
+      <item>Mas Cercana</item>
+      <item>Mas Proxima a Realizar</item>
+      <item>Mas Proxima a mi Posicion</item>
+      <item>Categorias</item>
+      <item>Realizadas Primero</item>
+   </string-array>
+</resources>

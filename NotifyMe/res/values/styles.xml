@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+	
+	<style name="ButtonStyle">
+    	<item name="android:background">@drawable/buttonskin</item>
+	</style>
+	
+	
+</resources>

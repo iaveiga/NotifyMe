@@ -1,0 +1,28 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Configuraciones Generales">
+        <CheckBoxPreference
+            android:key="activarnotificacion"
+            android:title="Encender/Apagar Notificacion"
+            android:summary="Selecciona Para Activar o Desactivar las Notificaciones" />
+        <EditTextPreference
+            android:key="Distancia"
+            android:title="Distancia de Rastreo"
+            android:summary="Distancia Minima a la que se Lanzara la Notificacion"
+            android:dialogTitle="Introduce valor" />
+        <EditTextPreference
+            android:key="Frecuencia"
+            android:title="Frecuencia de Notificaciones"
+            android:summary="Tiempo de Repeticion de Notificaciones"
+            android:dialogTitle="Introduce valor" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notas">
+        <ListPreference
+            android:key="OrdenarNotas"
+            android:title="Ordenar Notas"
+           android:summary="Como Quieres que se Muestren las Notificaciones"
+            android:dialogTitle="Indicar Pais"
+            android:entries="@array/categorias"
+            android:entryValues="@array/categorias" />
+    </PreferenceCategory>
+</PreferenceScreen>

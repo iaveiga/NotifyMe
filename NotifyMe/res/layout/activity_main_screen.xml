@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/ButtonNewNote"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/_Note"
+       	style="@style/ButtonStyle"
+       	android:onClick="NewNoteActivity"/>
+
+    <Button
+        android:id="@+id/ButtonNotes"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ButtonNewNote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/_ToDoList"
+        style="@style/ButtonStyle" 
+        android:onClick="NotesActivity"/>
+
+    <Button
+        android:id="@+id/ButtonSettings"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ButtonNotes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/_Settings"
+        style="@style/ButtonStyle"
+        android:onClick="SettingsActivity"/>
+
+    <Button
+        android:id="@+id/ButtonExit"
+        style="@style/ButtonStyle"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ButtonSettings"
+        android:layout_marginTop="20dp"
+        android:text="@string/_Exit"
+        android:onClick="ExitActivity"/>
+
+</RelativeLayout>
